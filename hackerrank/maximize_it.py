@@ -8,8 +8,8 @@ for i in range(K):
 Max=0  
 #print(List)
 #print(product(*List))  
-#for T in product(*List):
-    print(T)
+for T in product(*List):
+    #print(T)
     Sum=sum(T)%M
     if Sum>Max:   #finding maximum sum out of all tuples
         Max=Sum
